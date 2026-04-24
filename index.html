@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Portofolio | Beranda</title>
+    <style>
+        body {
+            font-family: https://www.dafont.com/le-cercle-des-artisans.font, sans-serif;
+            background-image: url(https://i.pinimg.com/1200x/6f/50/5e/6f505e952aaae852bc941294aac42d64.jpg);
+            margin: 0;
+        }
+
+        header {
+            background-image: url(https://i.pinimg.com/736x/f0/08/d4/f008d462ee5192aa8f4e3f88ad3d0f34.jpg);
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav {
+            background-image: url(https://i.pinimg.com/736x/50/8d/4d/508d4dd8b7367b6e4336db50cb2603cd.jpg);
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .container {
+            width: 90%;
+            margin: 20px auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        /* GRID UTAMA */
+        .content-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 20px;
+        }
+
+        /* TEKS KIRI */
+        .content-text h2 {
+            color: #8A7650;
+        }
+
+        .content-text p {
+            text-align: justify;
+        }
+
+        /* GRID GAMBAR KANAN */
+    .content-gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 300px 300px;
+        gap: 0;
+        border-radius: 12px;
+        overflow: hidden;
+    }
+
+    .content-gallery img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+    }
+
+        footer {
+            background-image: url(https://i.pinimg.com/736x/50/8d/4d/508d4dd8b7367b6e4336db50cb2603cd.jpg);
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+
+        /* RESPONSIVE (HP) */
+        @media (max-width: 768px) {
+            .content-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>PORTOFOLIO_KHANSA MAYESA</h1>
+    <p>Karya Nyata dari Proses Belajar</p>
+</header>
+
+<nav>
+    <a href="index.html">Beranda</a>
+    <a href="profil.html">Profil</a>
+    <a href="video.html">Video</a>
+    <a href="project.html">My Project</a>
+</nav>
+
+<div class="container">
+
+    <div class="content-grid">
+
+        <!-- BAGIAN KIRI: TEKS (WAJIB DIISI SENDIRI) -->
+        <div class="content-text">
+
+            <h2>Selamat Datang di Website Portofolio</h2>
+            <p>
+                Website ini merupakan media pendukung untuk menampilkan hasil
+                Ujian Praktik Terintegrasi. Konten utama pada website ini adalah
+                video broadcasting pembelajaran yang berisi penyampaian teks
+                argumentasi secara lisan.
+            </p>
+
+            <h2>Tentang Website Ini</h2>
+            <p>
+                Website ini merupakan website portofolio digital yang berisi
+                hasil karya dan pembelajaran saya selama mengikuti Ujian Praktik
+                Terintegrasi.
+            </p>
+
+            <h2>Tujuan Pembuatan Website</h2>
+            <p>
+                Tujuan pembuatan website ini adalah untuk menampilkan karya
+                yang telah saya buat serta melatih kemampuan saya dalam
+                membuat website sederhana menggunakan HTML.
+            </p>
+
+            <h2>Topik Argumentasi dan Alasan Pemilihan</h2>
+            <p>
+                <i>
+               Topik yang saya bahas di vidio ini adalah mengenai program magang di SMPIT Al-Haraki atau "Internship Curriculum" di bidang Designing berperan dalam hidup siswa dan siswi selama 3 hari. Khususnya saat magang di Queen Nara.
+                </i>
+            </p>
+
+            <h2>Harapan dari Video</h2>
+            <p>
+                <i>
+Harapan saya kepada yang menonton video saya semoga dapat menambah wawasan mengenai program magang bagi diri sendiri dan yang pastinya berguna bagi dunia nyata kerja.
+               
+                </i>
+            </p>
+
+            <h2>Refleksi, Kesan, dan Pesan</h2>
+            <p>
+                <i>
+                Melalui ujian praktik ini, saya menjadi lebih teliti, sabar, dan lebih bertanggung jawab terhadap tugas yang diberikan.
+Kesan saya selama belajar di SMPIT Al Haraki sangat nyaman, mulai dari lingkungan belajar nya dan teman teman nya dan guru guru nya. Pesan saya, semoga SMPIT Al - Haraki bisa terus menjadi sekolah yang berprestasi.
+                </i>
+            </p>
+
+        </div>
+
+        <!-- BAGIAN KANAN: GRID GAMBAR (BEBAS KREATIF) -->
+        <div class="content-gallery">
+            <img src="https://i.pinimg.com/736x/9d/54/b5/9d54b5d73a36d92aa8379a0ef906edaf.jpg" alt="Gambar Bebas 1">
+            <img src="https://i.pinimg.com/736x/92/f3/9c/92f39c42c5e936937e815877c90724c6.jpg" alt="Gambar Bebas 2">
+            <img src="https://i.pinimg.com/736x/6e/b9/7b/6eb97be1bf87a7ed6cf116e096b50eda.jpg" alt="Gambar Bebas 3">
+            <img src="https://i.pinimg.com/736x/7a/3c/53/7a3c53610599925e5aac4eed2ab3a95e.jpg" alt="Gambar Bebas 4">
+        </div>
+
+    </div>
+
+</div>
+
+<footer>
+    <p>Ujian Praktik Terintegrasi | SMPIT Al Haraki |  Khansa Zhafirah Mayesa@2026  </p>
+</footer>
+
+</body>
+</html>
